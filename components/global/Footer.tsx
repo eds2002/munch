@@ -214,6 +214,7 @@ export default function Footer() {
           <Image
             src="/company/logoOriginal.svg"
             alt="Company logo"
+            priority
             width={50}
             height={50}
           />

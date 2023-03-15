@@ -34,7 +34,7 @@ export default function QuickLinks() {
             className="flex flex-row items-center justify-center gap-6 lg:flex-col lg:gap-0"
           >
             <div className="relative w-[200px] h-[200px]">
-              <Image src={link.iconImg} alt={'Icon'} fill />
+              <Image src={link.iconImg} alt={'Icon'} fill priority />
             </div>
             <div className="lg:flex lg:items-center lg:justify-center lg:flex-col">
               <p className="text-3xl font-semibold lg:text-center font-luckiestGuy">

@@ -35,6 +35,7 @@ export default function Header() {
               <Image
                 src="/company/logoOriginal.svg"
                 alt="Image of company"
+                priority
                 width={40}
                 height={40}
               />
@@ -139,6 +140,7 @@ function Drawer({ setOpenDrawer }: { setOpenDrawer: (val: boolean) => void }) {
             <Image
               src="/icons/pizza-app.svg"
               alt="Pizza app"
+              priority
               width={75}
               height={75}
             />

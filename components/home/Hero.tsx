@@ -34,6 +34,7 @@ export default function Hero() {
           src={bgImg}
           width={2500}
           height={2500}
+          priority
           alt="Image of pizza"
           className="object-cover w-full h-full"
         />
