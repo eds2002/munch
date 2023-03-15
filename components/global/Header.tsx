@@ -50,7 +50,10 @@ export default function Header() {
             </motion.div>
           </div>
           <div className="items-center hidden gap-x-3 lg:flex">
-            <Button className="px-3 py-2 text-black rounded-full bg-stone-100">
+            <Button
+              animate={false}
+              className="px-3 py-2 text-black rounded-full bg-stone-100"
+            >
               Sign in
             </Button>
             <Button className="px-3 py-2 rounded-full">Sign Up</Button>
