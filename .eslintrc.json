@@ -1,0 +1,9 @@
+{
+  "plugins": ["react"],
+  "extends": ["next/core-web-vitals", "prettier", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
