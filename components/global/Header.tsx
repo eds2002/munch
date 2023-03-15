@@ -9,7 +9,7 @@ import { AiFillApple, AiFillAndroid } from 'react-icons/ai'
 import Link from 'next/link'
 
 export default function Header() {
-  const [openDrawer, setOpenDrawer] = useState(true)
+  const [openDrawer, setOpenDrawer] = useState(false)
   const { scrollYProgress } = useScroll()
   const background = useTransform(
     scrollYProgress,
